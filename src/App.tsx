@@ -171,7 +171,7 @@ function HeroSection() {
           className="group flex items-center gap-3 px-5 py-2.5 rounded-xl card-glass hover:border-[#FFD700]/40 transition-all duration-200"
         >
           <span className="text-xs font-mono text-[#c0a0e0] group-hover:text-[#FFD700] transition-colors">
-            CA: {CONTRACT_ADDRESS}
+            CA: {CONTRACT_ADDRESS.slice(0, 6)}...{CONTRACT_ADDRESS.slice(-4)}
           </span>
           {copied ? (
             <Check size={14} className="text-green-400 flex-shrink-0" />
