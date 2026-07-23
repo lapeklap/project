@@ -142,7 +142,7 @@ function HeroSection() {
         </div>
 
         {/* Hero image */}
-        <div className="animate-float relative">
+        <div className="animate-float relative flex flex-col items-center mx-auto">
           <div className="absolute inset-0 rounded-2xl blur-3xl bg-[#FFD700]/10 scale-110" />
           <img
             src="/images/3.jpg"
@@ -156,7 +156,7 @@ function HeroSection() {
         </div>
 
         {/* Title */}
-        <div>
+        <div className="flex flex-col items-center text-center mx-auto">
           <h1 className="font-orbitron font-black text-5xl sm:text-7xl tracking-tight glow-gold shimmer-text leading-none">
             PERVERT INU
           </h1>
