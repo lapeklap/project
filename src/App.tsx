@@ -13,14 +13,14 @@ import {
   ArrowLeftRight,
 } from 'lucide-react';
 
-const CONTRACT_ADDRESS = '0x0331Bc6e11fe128b91E20F67F81a1e04b6e2e84C';
+const CONTRACT_ADDRESS = '0x00000000000000000000000';
 
 const SOCIAL_LINKS = {
   telegram: 'https://t.me/pervertinu',
   twitter: 'https://x.com/pervertinu',
-  dexscreener: 'https://dexscreener.com/robinhood/0x0331Bc6e11fe128b91E20F67F81a1e04b6e2e84C',
-  dextools: 'https://www.dextools.io/app/robinhood/pair-explorer/0x0331Bc6e11fe128b91E20F67F81a1e04b6e2e84C',
-  uniswap: 'https://app.uniswap.org/swap?chain=robinhood&inputCurrency=NATIVE&outputCurrency=0x0331Bc6e11fe128b91E20F67F81a1e04b6e2e84C',
+  dexscreener: 'https://dexscreener.com/robinhood/0xx00000000000000000000000',
+  dextools: 'https://www.dextools.io/app/robinhood/pair-explorer/x00000000000000000000000',
+  uniswap: 'https://app.uniswap.org/swap?chain=robinhood&inputCurrency=NATIVE&outputCurrency=x00000000000000000000000',
 };
 
 function CoinParticles() {
